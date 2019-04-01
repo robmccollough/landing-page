@@ -1,0 +1,151 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  margin: 0px 0px;
+  margin-top: 90px
+
+}
+@media (max-width: 500px) {
+  header{
+    flex-direction: column;
+  }
+  #models-box{
+    flex-direction: column;
+  }
+}
+
+header{
+  position: fixed;
+  top: 0;
+  height: 70px;
+  padding: 10px 15px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightgrey;
+  width: 100%;
+  justify-content: space-around;
+  box-shadow: 0 2px 5px grey;
+}
+
+#logo-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#header-img{
+  max-width: 70px;
+  height: 70px;
+}
+
+#logo-text{
+    margin-top: 0.5em;
+    font-size: 35px;
+    font-family: 'Concert One', 'Open Sans', sans-serif;
+}
+nav {
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  width: 40vw;
+  margin-bottom: 0px;
+}
+
+nav ul a{
+  text-decoration: none;
+  color:#000000;
+}
+
+#models{
+  text-align: center;
+  background-color: #ffd5ba;
+  padding: 1% 0 5% 0;
+}
+
+
+#models-box{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.model-card{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  min-height: 350px;
+  height: auto;
+  box-shadow: 4px 4px 10px #000000;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 1;
+  padding: 0px 5px 5px 5px;
+  background-color: white;
+}
+
+.model-info{
+  font-size: 0.8em;
+  flex-shrink:1;
+  font-weight: bold;
+}
+
+.model-img{
+  width: 80%;
+  height:auto;
+}
+
+.model-button{
+  justify-content: flex-end;
+  padding: 6px 8px;
+  border:0px;
+  border-radius: 3px;
+  background-color: salmon;
+  font-weight: bold;
+}
+
+#howto{
+  background-color: lightblue;
+  height: 450px;
+  position: relative;
+  bottom:20px;
+  padding: 10px 20% 20px 20%;
+
+}
+#howto-header{
+  text-align: center;
+}
+
+#video{
+  width: 540px;
+  height: 360px;
+}
+
+
+
+#contact{
+  width: 100%;
+  background-color: #c9ffc9;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+footer{
+  background-color: lightgrey;
+  text-align: right;
+  padding-right: 20px;
+  height: 100%
+}
